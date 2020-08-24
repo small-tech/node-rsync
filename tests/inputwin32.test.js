@@ -21,7 +21,7 @@ describe('inputwin32', function () {
                 source:       [ 'C:\\home\\username\\develop\\readme.txt' ],
                 destination:  'themoon'
             });
-            assertOutputPattern(rsync, / \/home\/username\/develop\/readme\.txt /);
+            assertOutputPattern(rsync, / \/c\/home\/username\/develop\/readme\.txt /);
         });
     });
     

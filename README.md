@@ -1,6 +1,14 @@
-# Rsync ![build status](https://travis-ci.org/mattijs/node-rsync.svg?branch=master)
+# rsync-with-portable-cygwin-path-support-on-windows
 
-[![NPM](https://nodei.co/npm/rsync.png?downloads=true)](https://nodei.co/npm/rsync/)
+__THIS IS A FORK!__
+
+__You probably want [the original](https://github.com/mattijs/node-rsync).__
+
+This is a fork of node-rsync that has its path handling in Windows altered to work with [Portable Rsync With SSH For Windows](https://github.com/small-tech/portable-rsync-with-ssh-for-windows). Basically, instead of filenames starting with `/`, they start with `/c/`.
+
+_If none of that makes sense to you, you probably want [the original node-rsync package](https://github.com/mattijs/node-rsync). __Only use this fork if you understand what it’s for.___
+
+## Original readme follows
 
 `Rsync` is a class for building and executing `rsync` commands with Node.js.
 
@@ -404,6 +412,16 @@ When adding a shorthand make sure it does not already exist, it is a sane name a
 If there is something broken (which there probably is), the same applies: fork, patch, pull request. Opening an issue is also possible.
 
 # Changelog
+
+v1.0.0
+
+  - Change path handling to support [Portable Rsync With SSH For Windows](https://github.com/small-tech/portable-rsync-with-ssh-for-windows).
+
+---
+
+__FORK__
+
+---
 
 v0.6.1
 
