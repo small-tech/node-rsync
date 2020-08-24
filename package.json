@@ -1,7 +1,7 @@
 {
-  "name": "rsync",
-  "version": "0.6.1",
-  "description": "Rsync cli wrapper",
+  "name": "@small-tech/rsync-with-portable-cygwin-path-support-on-windows",
+  "version": "1.0.0",
+  "description": "Rsync cli wrapper for use with portable cygwin rsync",
   "main": "rsync.js",
   "repository": {
     "type": "git",
@@ -14,6 +14,9 @@
     "command"
   ],
   "author": "Mattijs Hoitink <mattijs@monkeyandmachine.com>",
+  "contributors": [
+    "Aral Balkan <mail@ar.al>"
+  ],
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {

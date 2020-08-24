@@ -1025,7 +1025,7 @@ function escapeFileArg(filename) {
   // (http://www.mls-software.com/opensshd.html) are using 
   // standard linux directory separator so need to replace it
   if ('win32' === process.platform) {
-    filename = filename.replace(/\\\\/g,'/').replace(/^["]?[A-Z]\:\//ig,'/');
+    filename = filename.replace(/\\\\/g,'/').replace(/^["]?[A-Z]\:\//ig,'/c/');
   }
   return filename;
 }
